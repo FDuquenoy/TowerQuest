@@ -1,12 +1,12 @@
 #include "main.h"
 
-void fAfficherRegle()
+/*void fAfficherRegle()
 {
     printf("De 8 a 12 il faut 1 points pour augmenter la caracteristique\n");
     printf("De 13 a 15 il faut 2 points pour augmenter la caracteristique\n");
     printf("De 16 a 19 il faut 3 points pour augmenter la caracteristique\n");
     printf("Pour 20 et plus il faut 4 points pour augmenter la caracteristique\n\n");
-}
+}*/
 
 void fAfficherCarac(Carac monstre)
 {
@@ -16,11 +16,11 @@ void fAfficherCarac(Carac monstre)
     printf("Agilite:\t%d\n", monstre.agi);
     printf("Defense:\t%d\n", monstre.def);
     printf("Volonte:\t%d\n\n", monstre.vol);
-    printf("Vos caracteristique donnent:\n");
+    printf("Ces caracteristique donnent:\n");
     printf("Vie:\t%d\n",monstre.vieMax);
     printf("Degats:\t%d\n",monstre.degat);
-   // printf("Parade (Je sais plus):\t\t%d\n",monstre.parade);
-   // printf("Esquive (Je sais plus):\t\t%d\n",monstre.esquive);
+   // printf("Parade (A definir):\t\t%d\n",monstre.parade);
+   printf("Esquive:\t\t%d\n",monstre.esquive);
 }
 
 void fPause()

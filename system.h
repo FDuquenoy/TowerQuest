@@ -3,5 +3,6 @@
 
 void fAfficherRegle();
 void fAfficherCarac(Carac monstre);
+void fPause();
 
 #endif // SYSTEM_H_INCLUDED

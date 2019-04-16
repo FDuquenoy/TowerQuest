@@ -1,7 +1,7 @@
 #ifndef MAIN_H_INCLUDED
 #define MAIN_H_INCLUDED
 
-
+// Ce fichier sert à la définiton de la structure.
 
 typedef struct Carac
 {
@@ -17,12 +17,6 @@ typedef struct Carac
     int parade;
     char nom[20];
     int id;
+    int potion;
 } Carac;
 
-
-
-
-
-
-
-#endif // MAIN_H_INCLUDED
